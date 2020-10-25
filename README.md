@@ -1,3 +1,46 @@
+# Test Live2D Cubism Web Samples.
+
+<img src="https://evofan.github.io/test_CubismWebSamples/pic_live2db.jpg" width="50%">  
+
+**Test execution procedure**  
+
+Live2D / CubismWebSamples  
+[https://github.com/Live2D/CubismWebSamples](https://github.com/Live2D/CubismWebSamples)  
+(1) Download ZIP and Unzip.  
+-> CubismWebSamples-develop/  
+
+[https://www.live2d.com/en/download/cubism-sdk/](https://www.live2d.com/en/download/cubism-sdk/)  
+(2) Download Cubism SDK for Web and Unzip.  
+-> CubismSdkForWeb-4-r.1/  
+
+(3) Copy Folders.  
+CubismSdkForWeb-4-r.1/Core -> CubismWebSamples-develop/Core  
+CubismSdkForWeb-4-r.1/Framework -> CubismWebSamples-develop/Framework  
+
+(4) Open CubismWebSamples-develop in Visual Studio Code.  
+
+(5) Execute 'CTRL + SHIT + P' in Visual Studio Code.  
+-> Run Task -> npm: install: Smaples/TypeScript/Demo/  
+-> Run Task -> npm: install: Framework/  
+-> Run Task -> npm: build (build bundle.js)  
+-> Run Task -> npm: start  
+
+(6) Open URL.  
+http://localhost:5000/Samples/TypeScript/Demo/  
+
+reference
+
+**Live2D Cubism**  
+[https://www.live2d.com/en/](https://www.live2d.com/en/)  
+
+**Sample Model Collection | Live2D Cubism**  
+[https://www.live2d.com/en/download/sample-data/](https://www.live2d.com/en/download/sample-data/)  
+
+**Web version change history**  
+[https://docs.live2d.com/cubism-sdk-manual/web-updates/](https://docs.live2d.com/cubism-sdk-manual/web-updates/)  
+
+***
+
 # Cubism Web Samples
 
 Live2D Cubism 4 Editor で出力したモデルを表示するアプリケーションのサンプル実装です。
@@ -108,3 +151,4 @@ NOTE: デバック用の設定は、`.vscode/launch.json` に記述していま�
 | Windows | Mozilla Firefox | 72.0.2 |
 
 Note: 動作確認時のサーバの起動は `./Samples/TypeScript/Demo/package.json` の `serve` スクリプトを使用して行っています。
+
